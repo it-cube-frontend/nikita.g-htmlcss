@@ -1,16 +1,37 @@
 body {
+  /*font-family: "Roboto", sans-serif;*/ 
   margin: 0;
-  min-width: 960px;
-  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 32px;
-  /* color: #222222; 
-  background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: top center; */
+  font: 16px/24px "roboto", sans-serif;
+  /*font-size: 16px;
+  line-height: 24px;*/
+
+}
+header, .header{
+  background-color: #EEEEEE;
+  padding:5px;
 }
 
+.button1 {
+  background: #FB565A;
+  border-radius: 3px;
+  position: absolute;
+}
+
+.button2{
+  background: #00CA74;
+  border-radius: 3px;
+
+
+}
+
+.button3{
+  background: #EFC849;
+  border-radius: 3px;
+
+}
+
+
+/*
 .container {
   max-width: 928px;
   margin: 0 auto;
@@ -191,4 +212,4 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
-}
+}*/
