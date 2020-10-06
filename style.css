@@ -14,7 +14,6 @@ header, .header{
 .button1 {
   background: #FB565A;
   border-radius: 3px;
-  position: absolute;
 }
 
 .button2{
@@ -29,7 +28,6 @@ header, .header{
   border-radius: 3px;
 
 }
-
 
 /*
 .container {
