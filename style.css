@@ -1,3 +1,4 @@
+/*смысловые html теги*/
 body {
   min-width: 960px;
   margin: 0px;
@@ -15,7 +16,80 @@ header{
   background-color: #EEEEEE;
   padding:5px;
 }
+
+/*текстовые html теги*/
+.a {
+  text-decoration: none;
+  color: black;
+  line-height: 30px;
+  font-weight: 500;
+}
+.a:hover {
+  color: #FB565A;
+}
+
+.a:active{
+  color: #989898;
+}
+.very-bold-text{
+  text-align: left;
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+}
+
+.medium-bold-text {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.bold-text {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.a-button {
+  display: inline-block;
+  padding: 5px 15px;
+  color: #ffffff;
+  border-radius: 3px;
+  text-align: center;
+
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.a-button-red{
+  background-color: #FB565A;
+  width: 160px;
+  height: 50px;
+}
+
+.a-button-green {
+  background-color: #00CA74;
+  width: 160px;
+  height: 50px;
+}
+
+.a-button-yellow{
+  background-color: #EFC849;
+  width: 160px;
+  height: 50px;
+}
+
+
+/*селекторы оформления смысловых разделов*/
+.slides{
+  background-color: #EEEEEE;
+  padding: 80px;
+}
+
 .header-nav {
+  word-spacing: 44px;
   margin: 75px;
 }
 
@@ -24,44 +98,28 @@ header{
   text-align: justify;
 }
 
-.basket {
+.header-nav>basket {
   text-align: right;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.button1 {
-  background: #FB565A;
-  border-radius: 3px;
+.services{
+  padding: 80px;
 }
 
-.button2{
-  background: #00CA74;
-  border-radius: 3px;
-
-
+.services>li {
+  margin-left: 100px;
+  margin-right: 150px;
 }
 
-.button3{
-  background: #EFC849;
-  border-radius: 3px;
+.info {
+  padding: 80px;
+  text-align: left;
+}
 
-}*/
+
+
+
+
 
 /*
 .container {
