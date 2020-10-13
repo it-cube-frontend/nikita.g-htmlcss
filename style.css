@@ -44,6 +44,19 @@ header{
   line-height: 45px;
 }
 
+.quite-bold-text{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.medium-quite-bold-text{
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 64px;
+}
+
 .bold-text {
   text-transform: uppercase;
   font-size: 24px;
@@ -58,6 +71,7 @@ header{
   border-radius: 3px;
   text-align: center;
 
+  text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
