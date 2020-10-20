@@ -8,6 +8,7 @@ body {
   line-height: 24px;
   font-weight: normal;
   text-align: center;
+  list-style: none;
 }
 
 header{
@@ -62,6 +63,12 @@ header{
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
+}
+
+dd {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .a-button {
