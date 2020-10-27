@@ -112,12 +112,20 @@ dd {
 .header-nav {
   word-spacing: 44px;
   margin: 75px;
-}
-
-.li-horizontal>li{
   display: inline-block;
   text-align: justify;
 }
+
+.header-nav>li{
+  display: inline-block;
+  text-align: justify;
+}
+
+/*.li-horizontal>li{
+  display: inline-block;
+  text-align: justify;
+}
+*/
 
 .header-nav>basket {
   text-align: right;
@@ -128,6 +136,8 @@ dd {
 }
 
 .services>li {
+  display: inline-block;
+  text-align: justify;
   margin-left: 100px;
   margin-right: 150px;
 }
@@ -137,6 +147,33 @@ dd {
   text-align: left;
 }
 
+.info>li{
+  display: inline-block;
+  text-align: justify;
+}
+
+.our-achievements{
+  text-align: right;
+}
+
+.our-achievements>dl{
+  display: inline-block;
+  text-align: justify;
+}
+
+.map{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*тут какаято проблема с отображением этих кнопок с соц. сетями*/
+footer>a{
+  display: block;
+  width: 81px;
+  height: 81px;
+  background-color: #E1E1E1;
+  /*border-radius: 50% ;*/
+}
 
 
 
