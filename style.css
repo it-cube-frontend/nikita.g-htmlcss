@@ -85,6 +85,7 @@ dd {
 }
 
 .a-button-red{
+  vertical-align: middle;
   background-color: #FB565A;
   width: 160px;
   height: 50px;
@@ -104,9 +105,37 @@ dd {
 
 
 /*селекторы оформления смысловых разделов*/
+.firstSlide{
+  background-image: url('img/nerds-index-slide1 1.png');
+  background-size: 760px 431px;
+  background-position: top right;
+  background-repeat: no-repeat;
+  list-style: none;
+}
+
+.secondSlide{
+  background-image: url('img/nerds-index-slide2 1.png');
+  background-size: 760px 431px;
+  background-position: top right;
+  background-repeat: repeat;
+  list-style: none;
+}
+
+.thirdSlide{
+  background-image: url('img/nerds-index-slide3 1.png');
+  background-size: 760px 431px;
+  background-position: top right;
+  background-repeat: no-repeat;
+  list-style: none;
+}
+
 .slides{
   background-color: #EEEEEE;
   padding: 80px;
+}
+
+.slides-p{
+  text-align: left;
 }
 
 .header-nav {
@@ -161,18 +190,27 @@ dd {
   text-align: justify;
 }
 
+.dfooter {
+  display: inline-block;
+  text-align: justify;
+  list-style: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .map{
   margin: 0px;
   padding: 0px;
 }
 
 /*тут какаято проблема с отображением этих кнопок с соц. сетями*/
-footer>a{
+.footer-a{
   display: block;
   width: 81px;
   height: 81px;
   background-color: #E1E1E1;
-  /*border-radius: 50% ;*/
+  border-radius: 50% ;
+  
 }
 
 
