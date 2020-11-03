@@ -1,3 +1,19 @@
+:root{
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-grey: #EEEEEE;
+  --color-red: #FB565A;
+  --color-red-dark: #E74246;
+  --color-red-extra-dark: #D7373B ;
+  --color-green: #00CA74;
+  --color-green-dark: #00BC6C;
+  --color-green-extra-dark: #00AA62;
+  --color-yellow: #EFC84A;
+  --color-yellow-dark: #EAB534;
+  --color-yellow-extra-dark: #E5A722;
+
+}
+
 /*смысловые html теги*/
 body {
   min-width: 960px;
@@ -13,12 +29,21 @@ body {
 
 header{
   text-transform: uppercase;
-  color: #000000;
-  background-color: #EEEEEE;
+  color: black;
+  background-color: var(--color-grey);
   padding:5px;
 }
 
 /*текстовые html теги*/
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+
+}
+
 .a {
   text-decoration: none;
   color: black;
@@ -26,7 +51,7 @@ header{
   font-weight: 500;
 }
 .a:hover {
-  color: #FB565A;
+  color: var(--color-red);
 }
 
 .a:active{
@@ -78,7 +103,7 @@ dd {
 .a-button {
   display: inline-block;
   padding: 5px 15px;
-  color: #ffffff;
+  color: var(--color-white);
   border-radius: 3px;
   text-align: center;
 
@@ -90,19 +115,19 @@ dd {
 
 .a-button-red{
   vertical-align: middle;
-  background-color: #FB565A;
+  background-color: var(--color-red);
   width: 160px;
   height: 50px;
 }
 
 .a-button-green {
-  background-color: #00CA74;
+  background-color: var(--color-green);
   width: 160px;
   height: 50px;
 }
 
 .a-button-yellow{
-  background-color: #EFC849;
+  background-color: var(--color-yellow);
   width: 160px;
   height: 50px;
 }
@@ -134,7 +159,7 @@ dd {
 }
 
 .slides{
-  background-color: #EEEEEE;
+  background-color: var(--color-grey);
   padding: 80px;
 }
 
@@ -213,8 +238,7 @@ dd {
   width: 81px;
   height: 81px;
   background-color: #E1E1E1;
-  border-radius: 50% ;
-
+  border-radius: 50%;
 }
 
 /*SECOND PAGE*/
@@ -222,7 +246,7 @@ dd {
   font-size: 55px;
   line-height: 55px;
   font-weight: 500;
-  background-color: #EEEEEE;
+  background-color: var(--color-grey);
   padding: 80px;
   margin-top: -100px;
 }
@@ -241,8 +265,12 @@ dd {
   font-weight: 700;
 }
 
-
-
+.our-project li {
+  display: block;
+  list-style: none;
+  padding-bottom: 30px;
+  border-radius: 50%;
+}
 
 /*
 .container {
