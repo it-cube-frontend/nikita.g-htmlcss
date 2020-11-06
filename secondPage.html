@@ -11,7 +11,7 @@
 
   <body>
     <header>
-      <nav >
+      <nav>
         <ul class="header-nav">
           <li><a class="a" title="уже не пусто" href="index.html">студия</a></li>
           <li><a class="a" title="тут пока пусто" href="#"> клиенты </a></li>
@@ -19,7 +19,7 @@
           <li><a class="a" title="тут пока пусто" href="#"> контакты </a></li>
           <li class="basket"><a class="a" title="тут пока пусто" href="#" > корзина</a></li>
         </ul>
-        </nav>
+      </nav>
     </header>
 
     <main>
@@ -27,8 +27,8 @@
         <h1 class="very-bold-text"> Магазин готовых шаблонов </h1>
       </div>
 
-    <aside id="shop">
-    <!--  <ul class="sort">
+    <!--<aside id="shop">
+      <ul class="sort">
         <li><p class="sort-bold-text">стоимость:</p>
           <p> от <input type="text" size="5"> до <input type="text" size="5"> </p>
         </li>
@@ -70,45 +70,62 @@
             <input type="checkbox" name="galery" value="gal"> Галерея <Br>
             <input type="checkbox" name="trash" value="tra"> Корзина <Br>
           </fieldset>
+
+          <fieldset>
+            <button type="button">показать</button>
+          </fieldset>
         </form>
       </aside>
 
     <section>
-      <h2> наши проекты </h2>
+      <h2 class="visually-hidden"> наши проекты </h2>
       <div>
-        <p>Сортировать:</p>
-        <ul>
+        <p class="sort-bold-text">Сортировать:</p>
+        <ul class="sort-by-cost-type-name">
           <li><a href="">По цене</a></li>
           <li><a href="">По типу</a></li>
           <li><a href="">По названию</a></li>
         </ul>
       </div>
+
       <ul class="our-project">
-        <li><div>
-          <img src="img/img-sedona 1.jpg" alt="SEDONA" width="360" height="580" href="/index.html">
-          <h3> SEDONA</h3>
-          <p> Информационный сайт <br> для туристов</p>
-          <button class="button1"> 9 900 ₽ </button>
-        </div></li>
-        <li><div>
+        <li>
+          <div>
+            <img src="img/img-sedona 1.jpg" alt="SEDONA" width="360" height="580" href="/index.html">
+            <h3> SEDONA</h3>
+            <p> Информационный сайт <br> для туристов</p>
+            <button class="button1"> 9 900 ₽ </button>
+          </div>
+        </li>
+        <li>
+          <div>
             <img src="img/img-pink 1.jpg" alt="pink" width="360" height="580" href="#">
-        </div></li>
+          </div>
+        </li>
 
-        <li><div>
-          <img src="img/img-barbershop 1.jpg" alt="barbershop" width="360" height="580" href="#">
-        </div></li>
+        <li>
+          <div>
+            <img src="img/img-barbershop 1.jpg" alt="barbershop" width="360" height="580" href="#">
+          </div>
+        </li>
 
-        <li><div>
-          <img src="img/img-mishka 1.jpg" alt="mishka" width="360" height="580" href="#">
-        </div></li>
+        <li>
+          <div>
+            <img src="img/img-mishka 1.jpg" alt="mishka" width="360" height="580" href="#">
+          </div>
+        </li>
 
-        <li><div>
-          <img src="img/img-aplus 1.jpg" alt="aplus" width="360" height="580" href="#">
-        </div></li>
+        <li>
+          <div>
+            <img src="img/img-aplus 1.jpg" alt="aplus" width="360" height="580" href="#">
+          </div>
+        </li>
 
-        <li><div>
-          <img src="img/img-kvast 1.jpg" alt="kvast" width="360" height="580" href="#">
-        </div></li>
+        <li>
+          <div>
+            <img src="img/img-kvast 1.jpg" alt="kvast" width="360" height="580" href="#">
+          </div>
+        </li>
       </ul>
     </section>
 

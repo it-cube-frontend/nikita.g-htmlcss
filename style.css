@@ -258,6 +258,25 @@ dd {
   font-weight: 400;
 }
 
+.sort fieldset {
+  border: none;
+  width: 260px;
+}
+
+.sort button {
+  width: 260px;
+  height: 50px;
+  background-color: var(--color-grey);
+
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+
+  border: none;
+}
+
 .sort-bold-text{
   text-transform: uppercase;
   font-size: 18px;
@@ -270,6 +289,26 @@ dd {
   list-style: none;
   padding-bottom: 30px;
   border-radius: 50%;
+}
+
+.sort-by-cost-type-name li{
+  list-style: none;
+  color: var(--color-grey);
+}
+
+.sort-by-cost-type-name li a{
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  color: var(--color-grey);
+  text-decoration: none;
+          /*
+          display: flex;
+          align-items: center;
+          text-transform: uppercase;
+          */
 }
 
 /*
