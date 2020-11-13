@@ -121,6 +121,9 @@ header{
 .services{
   padding: 80px;
 }
+.services li{
+  display: inline-block;
+}
 .services h3{
   font-weight: 700;
   font-size: 24px;
@@ -130,8 +133,8 @@ header{
 .services li {
   display: inline-block;
   text-align: justify;
-  margin-left: 100px;
-  margin-right: 150px;
+  /*margin-left: 100px;
+  margin-right: 150px;*/
 }
 .service-button {
   color: var(--color-white);
@@ -190,6 +193,11 @@ header{
   text-transform: uppercase;
 }
 
+.info_our-achievements aside{
+  display: inline-block;
+  vertical-align: top;
+}
+
 .our-achievements p{
   font-weight: 700;
   font-size: 16px;
@@ -204,7 +212,11 @@ header{
   font-size: 45px;
   line-height: 64px;
 }
-footer ul {
+.examples-of-works li{
+  display: inline-block;
+}
+
+footer li {
   display: inline-block;
   text-align: justify;
   list-style: none;
