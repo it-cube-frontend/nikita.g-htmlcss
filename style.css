@@ -78,6 +78,7 @@ header{
 .slides{
   background-color: var(--color-grey);
   padding: 80px;
+  border-bottom: 2px dashed #95a5a6;
 }
 .slides h3{
   text-align: left;
