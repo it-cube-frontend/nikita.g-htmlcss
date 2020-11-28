@@ -29,14 +29,28 @@ body {
   font-weight: 400;
   text-align: center;
   list-style: none;
+
+  width: 1440px;
+  border: 1px dashed blue;
 }
 
+.header--background{
+  background-color: var(--color-grey);
+}
 
 header{
   text-transform: uppercase;
   color: black;
-  background-color: var(--color-grey);
-  padding:5px;
+  padding-bottom:5px;
+  width: 1160px;
+  margin-left: 140px;
+  margin-right: 140px;
+
+
+  border: 1px dashed red;
+
+  display: grid;
+  grid-template-columns: repeat(11 * 105px);
 }
 
 
@@ -49,17 +63,33 @@ header{
 }
 
 
-.header-nav {
-  word-spacing: 44px;
-  margin: 75px;
+header nav {
+  display: grid;
+}
+/*.header-nav li{
   display: inline-block;
   text-align: justify;
 }
-.header-nav li{
-  display: inline-block;
-  text-align: justify;
+*/
+.header-nav{
+  list-style: none;
 }
-
+.header-li-1{
+  grid-column: 4;
+  grid-row:1/2;
+}
+.header-li-2{
+  grid-column: 5;
+  grid-row:1/2;
+}
+.header-li-3{
+  grid-column: 6;
+  grid-row:1/2;
+}
+.header-li-4{
+  grid-column: 7;
+  grid-row:1/2;
+}
 
 .a {
   text-decoration: none;
@@ -74,11 +104,16 @@ header{
   color: #989898;
 }
 
-
-.slides{
+.slides--background{
   background-color: var(--color-grey);
-  padding: 80px;
-  border-bottom: 2px dashed #95a5a6;
+}
+.slides{
+  
+  width: 1160px;
+  margin-left: 140px;
+  margin-right: 140px;
+  padding-bottom: 80px;
+  border: 1px dashed green;
 }
 .slides h3{
   text-align: left;
@@ -120,7 +155,11 @@ header{
 
 
 .services{
-  padding: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-left: 140px;
+  margin-right: 140px;
+  border: 1px dashed purple;
 }
 .services li{
   display: inline-block;
@@ -134,8 +173,6 @@ header{
 .services li {
   display: inline-block;
   text-align: justify;
-  /*margin-left: 100px;
-  margin-right: 150px;*/
 }
 .service-button {
   color: var(--color-white);
@@ -178,7 +215,11 @@ header{
   color: var(--color-white-opacite);
 }
 
-
+.info_our-achievements {
+  margin-left: 140px;
+  margin-right: 140px;
+  border: 1px dashed black;
+}
 .info {
   padding: 80px;
   text-align: left;
@@ -212,6 +253,11 @@ header{
   font-weight: 700;
   font-size: 45px;
   line-height: 64px;
+}
+.examples-of-works{
+  margin-left: 140px;
+  margin-right: 140px;
+  border: 1px dashed orange;
 }
 .examples-of-works li{
   display: inline-block;
@@ -325,4 +371,11 @@ footer li {
 .our-project button:active{
   background-color: var(--color-red-extra-dark);
   color: var(--color-white-opacite);
+}
+
+
+.contact_with_us{
+  margin-left: 140px;
+  margin-right: 140px;
+  border: 1px dashed red;
 }

@@ -10,47 +10,52 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <ul class="header-nav">
-          <li><a class="a" title="уже не пусто" href="index.html">студия</a></li>
-          <li><a class="a" title="тут пока пусто" href="#"> клиенты </a></li>
-          <li><a class="a" title="уже не пусто" href="secondPage.html"> магазин </a></li>
-          <li><a class="a" title="тут пока пусто" href="#"> контакты </a></li>
-        </ul>
-        <a class="a" title="тут пока пусто" href="#" > корзина</a>
-      </nav>
-    </header>
+    <div class="header--background"> 
+      <header>
+        <img src="img/nerds-logo.svg" alt="нёрдс лого">
+        <nav>
+          <ul class="header-nav">
+            <li class="header-li-1"><a class="a" title="уже не пусто" href="index.html">студия</a></li>
+            <li class="header-li-2"><a class="a" title="тут пока пусто" href="#"> клиенты </a></li>
+            <li class="header-li-3"><a class="a" title="уже не пусто" href="secondPage.html"> магазин </a></li>
+            <li class="header-li-4"><a class="a" title="тут пока пусто" href="#"> контакты </a></li>
+          </ul>
+          <a class="a header-basket" title="тут пока пусто" href="#" > корзина</a>
+        </nav>
+      </header>
+    </div>
 
     <main>
       <h1 class="visually-hidden"> дизайн-студия NERDS </h1>
-      <section class="slides"> <!--верхняя часть с картинкой -->
-        <h2  class="visually-hidden"> слайды </h2>
-        <ul>
-          <li class="slide firstSlide visually-hidden">
-            <!--<img src="img/nerds-index-slide1 1.png" winth="760" height="431" alt="firstSlide">-->
-            <h3>Долго, дорого,<br> скрупулезно.</h3>
-            <p>Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
-            <a class="a-button">Узнать больше</a>
-          </li>
+      <div class="slides--background"> 
+        <section class="slides"> <!--верхняя часть с картинкой -->
+          <h2  class="visually-hidden"> слайды </h2>
+          <ul>
+            <li class="slide firstSlide visually-hidden">
+              <!--<img src="img/nerds-index-slide1 1.png" winth="760" height="431" alt="firstSlide">-->
+              <h3>Долго, дорого,<br> скрупулезно.</h3>
+              <p>Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
+              <a class="a-button">Узнать больше</a>
+            </li>
 
-          <li class="slide secondSlide">
-            <h3>Любим математику<br>как никто другой</h3>
-            <p>Никакого креатива, только математические формулы<br>для расчета идеальных пропорций</p>
-            <a type="button">Узнать больше</a>
-          </li>
+            <li class="slide secondSlide">
+              <h3>Любим математику<br>как никто другой</h3>
+              <p>Никакого креатива, только математические формулы<br>для расчета идеальных пропорций</p>
+              <a type="button">Узнать больше</a>
+            </li>
 
-          <li class="slide thirdSlide visually-hidden">
-            <h3>Только ночь,<br>только хардкор</h3>
-            <p >Работать днем, как все? Мы против этого.<br>Ближе к полуночи работа только начинается.</p>
-            <a class="a-button">Узнать больше</a>
-          </li>
-        </ul>
-      </section>
+            <li class="slide thirdSlide visually-hidden">
+              <h3>Только ночь,<br>только хардкор</h3>
+              <p >Работать днем, как все? Мы против этого.<br>Ближе к полуночи работа только начинается.</p>
+              <a class="a-button">Узнать больше</a>
+            </li>
+          </ul>
+        </section>
+      </div>
 
-      <section> <!-- услуги-->
+      <section class="services"> <!-- услуги-->
         <h2  class="visually-hidden"> услуги </h2>
-        <ul class="services">
+        <ul>
           <li>
             <img src="img/illustration-1 1.jpg" alt="ноутбук">  <br>
             <h3> Веб-сайты </h3>
@@ -99,9 +104,9 @@
         </aside>
       </div>
 
-      <section>
-        <h2>выполненные работы</h2>
-        <ul class="examples-of-works"> <!-- сделать все горизонтально  -->
+      <section class="examples-of-works">
+        <h2 class="visually-hidden">выполненные работы</h2>
+        <ul > <!-- сделать все горизонтально  -->
           <li> <a href="#"><img src="img/Group 5.png" width="199" height="67.82" alt=" html academy "></a> </li>
           <li> <a><img src="img/logo-2 1.png" width="209" height="90" alt="barbershop borodinski"></a> </li>
           <li> <a><img src="img/logo-3 1.png" width="185" height="52" alt="pink"></a> </li>
@@ -116,14 +121,15 @@
       <p> 191186 Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8 <br> <br> тел. +7 (812) 275-75-75</p> <br>
       <a class="a-button a-button-red" type="button"> НАПИШИТЕ НАМ </a> <br>
 
-      <ul>
-        <li><a class="footer-a" href="#" type="button"><img src="img/vk-icon (1).png"  width="26.01" height="15" alt="vk"></a></li>
-        <li><a class="footer-a" href="#"><img src="img/fb-icon.png"  width="12" height="22" alt="fb"></a></li>
-        <li><a class="footer-a" href="#"><img src="img/insta-icon.png"  width="21" height="21" alt="insta"></a></li>
-      </ul>
-      <p> Давайте дружить, это выгодно! </p>
-      <p> скидка 10% для друзей из социальных сетей. </p>
+      <div class="contact_with_us">
+        <ul>
+          <li><a class="footer-a" href="#" type="button"><img src="img/vk-icon (1).png"  width="26.01" height="15" alt="vk"></a></li>
+          <li><a class="footer-a" href="#"><img src="img/fb-icon.png"  width="12" height="22" alt="fb"></a></li>
+          <li><a class="footer-a" href="#"><img src="img/insta-icon.png"  width="21" height="21" alt="insta"></a></li>
+        </ul>
+        <p> Давайте дружить, это выгодно! </p>
+        <p> скидка 10% для друзей из социальных сетей. </p>
+      </div>
     </footer>
   </body>
 </html>
-<!--сделал горизонтальное отображение некоторых обьектов -->
