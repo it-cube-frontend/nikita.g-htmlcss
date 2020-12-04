@@ -39,7 +39,7 @@ body {
 
   width: 1440px;
   outline: 1px solid blue;
-  
+
 }
 
 .header--background{
@@ -63,7 +63,7 @@ header nav{
   display: grid;
   grid-template-columns: repeat(11 , 105px);
   padding-left:0;
-  
+
   list-style: none;
 }
 nav img {
@@ -111,7 +111,7 @@ nav img {
 }
 .slides{
   width: 1160px;
-  
+
   margin-left: 140px;
   margin-right: 140px;
   padding-bottom: 80px;
@@ -122,7 +122,7 @@ nav img {
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
-  
+
 }
 .firstSlide{
   background-image: url('img/nerds-index-slide1 1.png');
@@ -307,7 +307,7 @@ nav img {
   border-bottom: 2px solid var(--color-grey);
 }
 .examples-of-works--1stExample{
-  grid-column: 1/2;  
+  grid-column: 1/2;
   outline: 1px solid black;
 }
 .examples-of-works--2ndExample{
@@ -345,13 +345,58 @@ footer li {
   padding-top: 30px;
 }
 
-.footer-a{
-  display: block;
+.contact_with_us{
+  padding-top: 66px;
+}
+
+.contact_with_us--button{
   width: 81px;
   height: 81px;
   background-color: #E1E1E1;
   border-radius: 50%;
+  display: inline-block;
+  line-height: 81px;
+  margin-right: 15px;
 }
+
+/*
+.main-footer-socials{
+  padding: 73px 10px
+  }
+  .main-footer-socials .social-icons {
+  float: left;
+  padding: 5px 0;
+  text-align: center;
+  max-width: 300px
+  }
+  .social-icons .social-btn {
+  background-color: #e1e1e1;
+  border-radius: 50%;
+  color: transparent;
+  display: inline-block;
+  font-size: 81;
+  height: 81px;
+  line-height: 81px;
+  margin-right: 23px;
+  vertical-align: top;
+  width: 81px
+  }
+  .social-btn .icon-facebook,.social-btn .icon-instagramm,.social-btn .icon-vk{
+  color: #fff;
+  font-size: 81px
+  }
+  .social-icons .social-btn:last-child{margin-right:0}.social-icons .social-btn:hover{background-color:#fb565a
+  }
+  .social-icons .social-btn:active{background-color:#d6494d;box-shadow:inset 0 3px 0 0 #b74246
+  }
+  .social-text{float:right;width:560px}.social-text .heading{font-size:36px;line-height:36px;margin:0 0 10px
+  }
+  .social-text .sub-heading{color:#283136;margin:0}*/
+
+
+
+
+
 
 /*SECOND PAGE*/
 .gray-header h1{
@@ -448,3 +493,39 @@ footer li {
   margin-right: 140px;
   outline: 1px solid red;
 }
+
+
+
+/*
+.main-footer-socials{
+  padding: 73px 10px
+  }
+  .main-footer-socials .social-icons {
+  float: left;
+  padding: 5px 0;
+  text-align: center;
+  max-width: 300px
+  }
+  .social-icons .social-btn {
+  background-color: #e1e1e1;
+  border-radius: 50%;
+  color: transparent;
+  display: inline-block;
+  font-size: 81;
+  height: 81px;
+  line-height: 81px;
+  margin-right: 23px;
+  vertical-align: top;
+  width: 81px
+  }
+  .social-btn .icon-facebook,.social-btn .icon-instagramm,.social-btn .icon-vk{
+  color: #fff;
+  font-size: 81px
+  }
+  .social-icons .social-btn:last-child{margin-right:0}.social-icons .social-btn:hover{background-color:#fb565a
+  }
+  .social-icons .social-btn:active{background-color:#d6494d;box-shadow:inset 0 3px 0 0 #b74246
+  }
+  .social-text{float:right;width:560px}.social-text .heading{font-size:36px;line-height:36px;margin:0 0 10px
+  }
+  .social-text .sub-heading{color:#283136;margin:0}*/
