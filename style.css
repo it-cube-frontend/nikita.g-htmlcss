@@ -51,6 +51,8 @@ header{
   color: black;
   padding-bottom: 5px;
   width: 1160px;
+
+  padding-top: 50px;
   margin-left: 140px;
   margin-right: 140px;
   /*outline: 1px solid red;*/
@@ -74,25 +76,33 @@ nav img {
   grid-column: 1 / 3;
 }
 .header-li-1{
-  grid-column: 4;
+  grid-column: 3;
   grid-row:1/2;
+  padding-top: 7px;
 }
 .header-li-2{
-  grid-column: 5;
+  grid-column: 4;
   grid-row:1/2;
+  padding-top: 7px;
 }
 .header-li-3{
-  grid-column: 6;
+  grid-column: 5;
   grid-row:1/2;
+  padding-top: 7px;
 }
 .header-li-4{
-  grid-column: 7;
+  grid-column: 6;
   grid-row:1/2;
+  padding-top: 7px;
 }
 .header-cart{
   grid-column: 11;
   text-align: end;
-  padding-top: 15px;
+  padding-top: 22px;
+}
+.header-cart img {
+  padding-left: 5px;
+  /*проконсультироваться*/
 }
 
 .a {
@@ -101,7 +111,6 @@ nav img {
   line-height: 30px;
   font-weight: 500;
   text-align: auto;
-
 }
 .a:hover {
   color: var(--color-red);
@@ -119,7 +128,7 @@ nav img {
   margin-left: 140px;
   margin-right: 140px;
   padding-bottom: 0px;
-  /*outline: 1px solid green;*/
+  /*outline: 1px solid red;*/
   padding-left: 0px;
   margin-top: 0px;
   padding-top: 0px;
@@ -128,15 +137,27 @@ nav img {
   margin-top: 0px;
   padding-top: 50px;
   padding-left: 0px;
+  /*outline: 10px solid black;*/
 }
+/*.slides ul li{
+  outline: 1px solid red;
+}*/
 .slides h3{
   text-align: left;
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
   /*outline: solid black 1px;*/
-  margin-top: 0px;
+
+  margin-top: -55px;
+  margin-left: -55px;
 }
+.slides ul li p{
+  /*outline: 1px solid red;*/
+  margin-top: -30px;
+  margin-left: -55px;
+}
+/*картинку нужно поднять выше*/
 .firstSlide{
   background-image: url('img/nerds-index-slide1 1.png');
 }
@@ -151,10 +172,11 @@ nav img {
   background-position: top right;
   background-repeat: no-repeat;
   list-style: none;
-  margin: 0px;
+  margin-top: 0px;
   padding: 55px;
+  padding-bottom: 75px;
 
-  outline: 1px solid #666;
+  /*outline: 1px solid #666;*/
 }
 .slide a {
   display: flex;
@@ -174,6 +196,7 @@ nav img {
 
   margin-right: 100%;
   margin-top: 55px;
+  margin-left: -55px;
 }
 .slide a:hover{
   background-color: var(--color-red-dark);
@@ -390,7 +413,7 @@ footer li {
 
 
 
-.noname{
+.contact-square{
   position: absolute;
 
   background: var(--color-white);
@@ -408,28 +431,28 @@ footer li {
   font-weight: 700;
   font-weight: bold;
 
-  padding-top: 49px;
-  padding-bottom: 22px;
+  margin-top: 49px;
   margin-left: 50px;
-
-  
 
   display: flex;
   align-items: center;
   text-transform: uppercase;
 }
 .footer-p-2{
+  margin-top: 23px;
   margin-left: 50px;
+  margin-bottom: 40px;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
   color: #666666;
 }
-.noname a{
+.contact-square a{
   width: 219px;
   height: 50px;
   margin-left: 50px;
   padding-left: 0px; 
+  margin-bottom: 47px;
   
   display: flex;
   align-items: center;
