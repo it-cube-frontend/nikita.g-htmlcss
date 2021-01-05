@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Мы - малельная, но гордая дизайн-студия из Краснодара">
+    <meta name="keywords" content="веб сайты, приложения, презентации" >
+    <title>Магазин готовых шаблонов</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="header--background"> 
+      <header>
+        
+        <nav>
+          <img src="img/nerds-logo.svg" alt="нёрдс лого">
+          <ul class="header-nav-ul">
+            <li class="header-li-1"><a class="a" title="уже не пусто" href="index.html">студия</a></li>
+            <li class="header-li-2"><a class="a" title="тут пока пусто" href="#"> клиенты </a></li>
+            <li class="header-li-3"><a class="a" title="уже не пусто" href="secondPage.html"> магазин </a></li>
+            <li class="header-li-4"><a class="a" title="тут пока пусто" href="#"> контакты </a></li>
+            <!--<li class="header-basket"></li>-->
+          </ul>
+          <a class="a header-cart" title="тут пока пусто" href="#" ><img src="img/cart-icon.svg" alt="корзина"> корзина</a>
+        </nav>
+      </header>
+    </div>
+    
+    <main>
+      <div class="gray-header">
+        <h1> Магазин готовых шаблонов </h1>
+      </div>
+
+    <!--<aside id="shop">
+      <ul class="sort">
+        <li><p class="sort-bold-text">стоимость:</p>
+          <p> от <input type="text" size="5"> до <input type="text" size="5"> </p>
+        </li>
+        <li><p class="sort-bold-text"> сетка:</p>
+          <input type="radio" name="adapt" value="adp"> Адаптивная <Br>
+          <input type="radio" name="fix" value="fix"> Фиксированная <Br>
+          <input type="radio" name="extensible" value="ext"> Резиновая <Br>
+        </li>
+        <li><p class="sort-bold-text"> особенности:</p> <br>
+          <input type="checkbox" name="slider" value="sli"> Слайдер <Br>
+          <input type="checkbox" name="block" value="blo"> Блок преимуществ <Br>
+          <input type="checkbox" name="news" value="new"> Новости <Br>
+          <input type="checkbox" name="galery" value="gal"> Галерея <Br>
+          <input type="checkbox" name="trash" value="tra"> Корзина <Br>
+        </li>
+        <li>
+          <button type="button"> показать </button>
+        </li>
+      </ul>-->
+      <aside>
+        <form class="sort"> <!-- metoth post-->
+          <fieldset>
+            <legend class="sort-bold-text">стоимость:</legend>
+              <div>от <input type="text" size="5"> до <input type="text" size="5"> </div>
+          </fieldset>
+
+          <fieldset>
+            <legend class="sort-bold-text">сетка</legend>
+            <input type="radio" name="adapt" value="adp"> Адаптивная <Br>
+            <input type="radio" name="fix" value="fix"> Фиксированная <Br>
+            <input type="radio" name="extensible" value="ext"> Резиновая <Br>
+          </fieldset>
+
+          <fieldset>
+            <legend class="sort-bold-text">особенности</legend>
+            <input type="checkbox" name="slider" value="sli"> Слайдер <Br>
+            <input type="checkbox" name="block" value="blo"> Блок преимуществ <Br>
+            <input type="checkbox" name="news" value="new"> Новости <Br>
+            <input type="checkbox" name="galery" value="gal"> Галерея <Br>
+            <input type="checkbox" name="trash" value="tra"> Корзина <Br>
+          </fieldset>
+
+          <fieldset>
+            <button type="button">показать</button>
+          </fieldset>
+        </form>
+      </aside>
+
+    <section>
+      <h2 class="visually-hidden"> наши проекты </h2>
+      <div>
+        <p class="sort-bold-text">Сортировать:</p>
+        <ul class="sort-by-cost-type-name">
+          <li><a href="">По цене</a></li>
+          <li><a href="">По типу</a></li>
+          <li><a href="">По названию</a></li>
+        </ul>
+      </div>
+
+      <ul class="our-project">
+        <li>
+          <div>
+            <img src="img/img-sedona 1.jpg" alt="SEDONA" width="360" height="580" href="/index.html">
+            <h3> SEDONA</h3>
+            <p> Информационный сайт <br> для туристов</p>
+            <button> 9 900 ₽ </button>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="img/img-pink 1.jpg" alt="pink" width="360" height="580" href="#">
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <img src="img/img-barbershop 1.jpg" alt="barbershop" width="360" height="580" href="#">
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <img src="img/img-mishka 1.jpg" alt="mishka" width="360" height="580" href="#">
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <img src="img/img-aplus 1.jpg" alt="aplus" width="360" height="580" href="#">
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <img src="img/img-kvast 1.jpg" alt="kvast" width="360" height="580" href="#">
+          </div>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer> <!--карта-->
+    <img class="map" src="img/map 1.jpg" width="1440" height="416" alt="map">
+    <p>NERDS DESIGN STUDIO</p>
+    <p> 191186 Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8 <br> <br> тел. +7 (812) 275-75-75</p> <br>
+    <a class="a-button a-button-red" type="button"> НАПИШИТЕ НАМ </a> <br>
+
+    <ul class="dfooter">
+      <li><a class="footer-a" href="#" type="button"><img src="img/vk-icon (1).png"  width="26.01" height="15" alt="vk"></a></li>
+      <li><a class="footer-a" href="#"><img src="img/fb-icon.png"  width="12" height="22" alt="fb"></a></li>
+      <li><a class="footer-a" href="#"><img src="img/insta-icon.png"  width="21" height="21" alt="insta"></a></li>
+    </ul>
+    <p> Давайте дружить, это выгодно! </p>
+    <p> скидка 10% для друзей из социальных сетей. </p>
+  </footer>
+</body>
+</html>
