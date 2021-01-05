@@ -370,21 +370,27 @@ nav img {
   padding-left: 0px;
   border-bottom: 2px solid var(--color-grey);
 }
+/*как центрировать изображения по вертикали*/
+.examples-of-works img{
+  outline: 1px solid black;
+  /*margin: 0 auto;*/
+  
+}
 .examples-of-works--1stExample{
   grid-column: 1/2;
-  /*outline: 1px solid black;*/
+  outline: 1px solid black;
 }
 .examples-of-works--2ndExample{
   grid-column: 2/3;
-  /*outline: 1px solid black;*/
+  outline: 1px solid black;
 }
 .examples-of-works--3rdExample{
   grid-column: 3/4;
-  /*outline: 1px solid black;*/
+  outline: 1px solid black;
 }
 .examples-of-works--4thExample{
   grid-column: 4/5;
-  /*outline: 1px solid black;*/
+  outline: 1px solid black;
 }
 .examples-of-works ul li:defined {
   opacity: 20%;
@@ -405,21 +411,24 @@ footer li {
 }
 
 .map{
-  position: relative;
   margin: 0px;
-  padding-top: 30px;
-  padding-bottom: 0px;
+  z-index: 0;
 }
 
-
-
+.on_the_map{
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2 , 822px);
+  margin-left: 140px;
+  margin-top: -373px;
+  margin-bottom: 215px;
+}
 .contact-square{
+  grid-column: 1/2;
   position: absolute;
 
   background: var(--color-white);
-  outline: 1px solid black;
-  margin-left: 140px;
-  margin-top: -373px;
+  /*outline: 1px solid black;*/
   width: 319px;
   height: 308px;
 
@@ -458,9 +467,13 @@ footer li {
   align-items: center;
   justify-content: center;
 }
+.on_the_map img{
+  grid-column: 2/3;
+}
+
 
 .contact_with_us{
-  padding-top: 66px;
+  /*padding-top: 66px;*/
   /*outline: 1px solid red;*/
   display: grid;
   grid-template-columns: (276px, 105px);
@@ -503,44 +516,6 @@ footer li {
 
   text-align: left;
 }
-/*
-.main-footer-socials{
-  padding: 73px 10px
-  }
-  .main-footer-socials .social-icons {
-  float: left;
-  padding: 5px 0;
-  text-align: center;
-  max-width: 300px
-  }
-  .social-icons .social-btn {
-  background-color: #e1e1e1;
-  border-radius: 50%;
-  color: transparent;
-  display: inline-block;
-  font-size: 81;
-  height: 81px;
-  line-height: 81px;
-  margin-right: 23px;
-  vertical-align: top;
-  width: 81px
-  }
-  .social-btn .icon-facebook,.social-btn .icon-instagramm,.social-btn .icon-vk{
-  color: #fff;
-  font-size: 81px
-  }
-  .social-icons .social-btn:last-child{margin-right:0}.social-icons .social-btn:hover{background-color:#fb565a
-  }
-  .social-icons .social-btn:active{background-color:#d6494d;box-shadow:inset 0 3px 0 0 #b74246
-  }
-  .social-text{float:right;width:560px}.social-text .heading{font-size:36px;line-height:36px;margin:0 0 10px
-  }
-  .social-text .sub-heading{color:#283136;margin:0}*/
-
-
-
-
-
 
 /*SECOND PAGE*/
 .gray-header h1{
